@@ -20,16 +20,19 @@
 <div align="center">
   
   🔭 I’m currently working on **Web Development and Machine Learning**
-  
-  🌱 I’m currently learning **React, Python (Flask), Java, etc**
-  
-  👯 I’m looking to collaborate on **Web Development Projects**
-  
-  👨‍💻 All of my projects are available at [My github](https://github.com/sangya-25)
-  
-  ⚡ Fun fact: **💻 I love debugging... until I realize the bug was a missing semicolon!**
-  
-  📫 How to reach me **ojha.sangya25@gmail.com**
+
+🌱 I’m currently learning **React, Python (Flask), Java, etc**
+
+👯 I’m looking to collaborate on **Web Development Projects**
+
+👨‍💻 All of my projects are available at [My GitHub](https://github.com/sangya-25)
+
+🌐 Check out my portfolio: [My Portfolio](https://portfolio-sangya.vercel.app/)
+
+⚡ Fun fact: **💻 I love debugging... until I realize the bug was a missing semicolon!**
+
+📫 How to reach me **ojha.sangya25@gmail.com**
+
 </div>
 <h3 align="center">Connect with me:</h3>
 <p align="center">
@@ -43,8 +46,10 @@
 <h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
 <div align="center">
     <img src="https://skillicons.dev/icons?i=react,html,css,vscode,github,figma,tailwind,git" />
-    <img src="https://skillicons.dev/icons?i=nodejs,python,javascript,express,mongodb,c,cpp,java" /><br>
+    <img src="https://skillicons.dev/icons?i=nodejs,python,javascript,express,mongodb,c,cpp,java,flask" />
+    <img src="https://skillicons.dev/icons?i=opencv" />
 </div>
+
 
 <h2 align="center">⚡ Stats ⚡</h2>
 <div align="center">
