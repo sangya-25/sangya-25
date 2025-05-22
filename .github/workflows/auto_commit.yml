@@ -1,24 +1,29 @@
-name: Daily README Update
+name: 📄 Auto-update Profile README
 
 on:
   schedule:
-    - cron: '0 2 * * *'  # Runs every day at 2:00 AM UTC
-  workflow_dispatch:
+    - cron: '0 0 * * *' # Runs every day at midnight UTC
+  workflow_dispatch:     # Allows you to run the workflow manually
 
 jobs:
-  auto-commit:
+  update-readme:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Update README with timestamp
+      - name: Auto update timestamp in README
         run: |
-          TIMESTAMP=$(date)
-          echo "<!-- Last updated: $TIMESTAMP -->" >> README.md
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          TIMESTAMP=$(date -u)
+          echo "🌱 Daily README update: $TIMESTAMP" >> README.md
+
+      - name: Commit and Push changes
+        env:
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "🌱 Daily README update: $TIMESTAMP"
-          git push
+          git commit -m "🕒 Auto-update: $(date -u)" || echo "No changes to commit"
+          git push https://x-access-token:${PAT_TOKEN}@github.com/${{ github.repository }}.git
