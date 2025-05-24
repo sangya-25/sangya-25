@@ -16,7 +16,7 @@ jobs:
       - name: Auto update timestamp in README
         run: |
           TIMESTAMP=$(date -u)
-          sed -i "s|<!--TIMESTAMP-->.*|<!--TIMESTAMP--> 🌱 Daily README update: $TIMESTAMP 🕒|g" README.md
+          sed -i "s|<!--TIMESTAMP-->.*|<!--TIMESTAMP-->  $TIMESTAMP 🕒|g" README.md
           echo "TIMESTAMP=$TIMESTAMP" >> $GITHUB_ENV
 
       - name: Commit and Push changes
