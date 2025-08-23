@@ -11,11 +11,11 @@
 
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/213866269-5d00981c-7c98-46d7-8a8e-16f462f15227.gif" 
+<img src="https://cdn.volumesf.com/wp-content/uploads/2023/02/05212329/20230223GitHub.gif" 
      alt="Tech Startup Booting GIF" 
-     width="400" 
-     height="400"
-     style="border-radius: 16px;" />
+     width="550" 
+     height="600"
+     style="border-radius: 30px;" />
 
 
 </div>
