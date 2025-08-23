@@ -11,10 +11,12 @@
 
 
 <div align="center">
-<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXA1Zmc1eG5mZmdvY2luamJ6ZWZleTcydzYwYTEwZW43ZWU1OGd6MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/78XCFBGOlS6keY1Bil/giphy.gif" 
+<img src="https://user-images.githubusercontent.com/74038190/213866269-5d00981c-7c98-46d7-8a8e-16f462f15227.gif" 
      alt="Tech Startup Booting GIF" 
-     width="600" 
+     width="400" 
+     height="400"
      style="border-radius: 16px;" />
+
 
 </div>
 </br>
